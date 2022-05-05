@@ -1,0 +1,60 @@
+@import url("./constants.css");
+
+body {
+  max-width: 1280px;
+  margin: auto;
+}
+/* Header */
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 100px;
+}
+
+nav li {
+  font-family: var(--font-heading);
+  font-weight: 400;
+  font-size: 11px;
+  list-style: none;
+  margin-right: 100px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+div.btn {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 130px;
+}
+
+button {
+  font-family: var(--font-heading);
+  font-weight: 400;
+  font-size: 14px;
+  border: 1px solid var(--color-secondary);
+  width: 300px;
+  height: 60px;
+  border-radius: 50px;
+  background: white;
+  margin-right: 100px;
+}
+
+button img {
+  vertical-align: middle;
+  max-width: 30px;
+  max-height: auto;
+}
+
+/* Article */
+h1 {
+  font-family: var(--font-heading);
+  font-weight: 400;
+  font-style: normal;
+  font-size: var(--font-size-heading1);
+  width: 780px;
+  text-align: center;
+}

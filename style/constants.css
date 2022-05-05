@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cardo&display=swap");
+:root {
+  /* Colors */
+  --color-primary: #1e1e1e;
+  --color-secondary: #9b9b9b;
+  --color-accent: #ffe3e3;
+
+  /* Typography  */
+  --font-heading: "Montserrat", sans-serif;
+  --font-paragraph: "Cardo", serif;
+  --font-secondary: "Montserrat", sans-serif;
+
+  /* Font sizes */
+  --font-size-heading1: 46px;
+  --font-size-heading2: 34px;
+  --font-size-heading3: 28px;
+  --font-size-paragraph: 14px;
+  --font-size-secondary: 28px;
+}
