@@ -129,5 +129,90 @@ button.btn-navigate {
   font-weight: 400;
   font-size: 34px;
   background: white;
+  padding: 0;
   border: none;
+}
+
+/* Modal */
+
+#modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+
+  width: 1000px;
+  height: 750px;
+  border: 1px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+div.modal-body form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  row-gap: 25px;
+}
+
+.modal-header {
+  margin-top: 50px;
+}
+
+input {
+  width: 398px;
+  height: 33px;
+  border: 1px solid var(--color-secondary);
+  border-radius: 5px;
+  padding: 0;
+  font-family: var(--font-paragraph);
+  font-size: 18px;
+  text-indent: 10px;
+}
+
+#modal #image {
+  width: 850px;
+}
+
+#modal textarea {
+  width: 848px;
+  height: 280px;
+  border: 1px solid var(--color-secondary);
+  border-radius: 5px;
+  padding: 0;
+  resize: none;
+  text-indent: 10px;
+  font-family: var(--font-paragraph);
+  font-size: 18px;
+}
+
+div.modal-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+button.btn-modal {
+  font-family: var(--font-heading);
+  font-weight: 400;
+  font-size: 14px;
+  border: 1px solid var(--color-secondary);
+  width: 300px;
+  height: 60px;
+  border-radius: 50px;
+  background: white;
+  margin-top: 25px;
+  margin-left: 75px;
+}
+
+button.save {
+  background: var(--color-accent);
+  margin-right: 75px;
+}
+
+.no-display {
+  display: none;
 }
