@@ -9,6 +9,7 @@ nav ul {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  gap: 100px;
   margin-top: 100px;
 }
 
@@ -17,7 +18,6 @@ nav li {
   font-weight: 400;
   font-size: 11px;
   list-style: none;
-  margin-right: 100px;
 }
 
 nav a {
@@ -29,9 +29,10 @@ div.btn {
   display: flex;
   flex-direction: row-reverse;
   margin-top: 130px;
+  margin-bottom: 90px;
 }
 
-button {
+button.btn-add {
   font-family: var(--font-heading);
   font-weight: 400;
   font-size: 14px;
@@ -40,7 +41,6 @@ button {
   height: 60px;
   border-radius: 50px;
   background: white;
-  margin-right: 100px;
 }
 
 button img {
@@ -49,7 +49,18 @@ button img {
   max-height: auto;
 }
 
-/* Article */
+/* Main */
+
+article {
+  margin-top: 100px;
+}
+
+article div.article-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 h1 {
   font-family: var(--font-heading);
   font-weight: 400;
@@ -57,4 +68,66 @@ h1 {
   font-size: var(--font-size-heading1);
   width: 780px;
   text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+div.article-info p {
+  font-family: var(--font-heading);
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--color-secondary);
+  margin: 0 20px 0 0;
+}
+
+div.article-info span.article-author {
+  color: var(--color-primary);
+}
+
+div.article-modify {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+
+button.btn-edit {
+  font-family: var(--font-heading);
+  font-weight: 400;
+  font-size: 14px;
+  background: white;
+  border: none;
+}
+
+div.article-img {
+  margin-top: 20px;
+}
+
+div.article-paragraph {
+  font-family: var(--font-paragraph);
+  font-weight: 400;
+  font-size: 16px;
+  width: 780px;
+  text-align: justify;
+  margin: auto;
+  margin-top: 80px;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 35px;
+  margin-bottom: 100px;
+}
+
+div.navigate {
+  display: flex;
+  justify-content: space-between;
+}
+
+button.btn-navigate {
+  font-family: var(--font-heading);
+  font-weight: 400;
+  font-size: 34px;
+  background: white;
+  border: none;
 }
