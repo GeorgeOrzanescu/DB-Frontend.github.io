@@ -1,0 +1,5 @@
+npm install --save-dev json-server    --> don't want it globally
+
+
+npx json-server --watch ./db/db.json --> to run the server and watch for changes 
+! be sure the path is correct

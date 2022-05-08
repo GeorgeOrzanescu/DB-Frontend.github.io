@@ -1,0 +1,22 @@
+{
+  "name": "db-frontend",
+  "version": "1.0.0",
+  "description": "db-frontend project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeorgeOrzanescu/DB-Frontend.git"
+  },
+  "author": "George Orzanescu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeorgeOrzanescu/DB-Frontend/issues"
+  },
+  "homepage": "https://github.com/GeorgeOrzanescu/DB-Frontend#readme",
+  "devDependencies": {
+    "json-server": "^0.17.0"
+  }
+}
